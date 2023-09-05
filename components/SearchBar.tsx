@@ -46,6 +46,7 @@ const SearchBar = () => {
     const newPathname = `${
       window.location.pathname
     }?${searchParams.toString()}`;
+    
     router.push(newPathname);
   };
 
